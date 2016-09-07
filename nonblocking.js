@@ -10,7 +10,7 @@ var food = fs.readFile('food.txt', 'utf8', function(err, food) {
     console.log('DRINKS:');
 });
 
-console.log('FOOD:');
+console.log('FOOD GOES HERE:');
 
 // load drinks asynchronously
 var drinks = fs.readFile('drinks.txt', 'utf8', function(err, drinks) {
